@@ -152,6 +152,23 @@ void pattern13 (int n)
         
     }
 }
+void pattern14(int n)
+{
+    int i,j;
+    for ( i = 1; i <=n; i++)
+    {
+        for(j=1;j<=n;j++)
+        {
+            printf("%d",j);
+        }
+        for ( j = 0; i< ; j++)
+        {
+            /* code */
+        }
+        
+    }
+    
+}
 int main()
 {
 

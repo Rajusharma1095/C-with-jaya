@@ -140,10 +140,10 @@ void pattern13 (int n)
     for (i=0;i<n;i++)
     {
         if (i%2==0){
-            start=0;
+            start=1;
         }
-        else start=1;
-        for ( j = 0; j <i; j++)
+        else start=0;
+        for ( j = 0; j <=i; j++)
         {
             printf("%d",start);
             start=1-start;//start=
